@@ -10,7 +10,10 @@ class TopicsController < ApplicationController
   # GET /topics/1
   # GET /topics/1.json
   def show
+
   end
+
+
 
   # GET /topics/new
   def new

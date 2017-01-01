@@ -13,7 +13,7 @@
 
   <tbody>
 
-    <% @topics.each do |topic| %>
+<% @topics.sort_by {|topic| -topic.votes.count}.each do |topic| %>
     <tr>
       <td><%= link_to topic.title, topic %></td>
 
@@ -31,3 +31,4 @@
 <br>
 
 <%= link_to 'New Topic', new_topic_path %>
+<%= link_to 'About', new_topic_path %>
