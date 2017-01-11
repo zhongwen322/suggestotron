@@ -18,6 +18,7 @@ Things you may want to cover:
 * How to run the test suite
 
 * Services (job queues, cache servers, search engines, etc.)
+topics and votes order-number-of-votes
 
 * Deployment instructions
 
